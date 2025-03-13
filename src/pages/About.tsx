@@ -153,9 +153,9 @@ const About = () => {
             {/* Timeline Items */}
             <div className="space-y-16">
               {timelineItems.map((item, index) => (
-                <div key={index} className={`relative flex items-center animate-on-scroll ${index % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
-                  <div className={`absolute left-1/2 transform -translate-x-1/2 w-5 h-5 rounded-full bg-oea-blue border-4 border-white`}></div>
-                  <div className={`w-5/12 glass-card rounded-xl p-6 shadow-lg ${index % 2 === 0 ? 'pr-12' : 'pl-12'}`}>
+                <div key={index} className={`relative flex flex-col sm:flex-row items-center animate-on-scroll ${index % 2 === 0 ? 'sm:justify-start' : 'sm:justify-end'}`}>
+                  <div className={`absolute left-1/2  transform -translate-x-1/2 w-5 h-5 rounded-full bg-oea-blue border-4 border-white`}></div>
+                  <div className={`w-full sm:w-5/12 glass-card rounded-xl p-6 shadow-lg ${index % 2 === 0 ? 'sm:pr-12' : 'sm:pl-12'}`}>
                     <div className="font-bold text-oea-blue text-lg">{item.year}</div>
                     <h3 className="text-xl font-semibold mb-2 text-oea-black">{item.title}</h3>
                     <p className="text-gray-600">{item.description}</p>

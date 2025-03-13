@@ -109,7 +109,7 @@ const Team = () => {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-oea-blue rounded-2xl overflow-hidden shadow-xl">
-            <div className="px-6 py-12 md:p-12  flex text-white">
+            <div className="px-6 py-12 md:p-12  grid text-white">
               <h2 className="text-3xl font-bold mb-6 animate-on-scroll text-center">Join Our Team</h2>
               <p className="text-xl mb-8 max-w-2xl mx-auto animate-on-scroll">
               Our team are experienced operators who have built, led, contributed to and learnt from some of the most well known scaling success stories in global tech. Our management team has led multi-billion dollar projects in the environmental, planning, geospatial, construction and tech sectors with clients such as Google, Dar, the Lagos State Govenrment, among many others. We're aligned by purpose, equipped with transparency and enabled by agency. The result is one of the most attractive and rewarding benefits for high performers that we can offer; the chance to work with purpose alongside talented and committed peers. We are looking for people that want to solve problems that matter with people that care. If you are interested in joining our team and mission, check our careers page.
