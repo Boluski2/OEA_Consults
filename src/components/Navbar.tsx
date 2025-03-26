@@ -93,11 +93,7 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-<<<<<<< HEAD
-            <Link
-=======
             {/* <Link
->>>>>>> f6638b8 (Update content)
               to="/contact"
               className={cn(
                 "ml-2 btn-primary",
@@ -105,11 +101,8 @@ const Navbar = () => {
               )}
             >
               Get Started
-<<<<<<< HEAD
             </Link>
-=======
             </Link> */}
->>>>>>> f6638b8 (Update content)
           </div>
 
           {/* Mobile Navigation Toggle */}
@@ -156,20 +149,14 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-<<<<<<< HEAD
-          <Link
-=======
+          {/* <Link></Link> */}
           {/* <Link
->>>>>>> f6638b8 (Update content)
             to="/contact"
             className="block w-full text-center mt-4 btn-primary"
           >
             Get Started
-<<<<<<< HEAD
           </Link>
-=======
           </Link> */}
->>>>>>> f6638b8 (Update content)
         </div>
       </div>
     </nav>

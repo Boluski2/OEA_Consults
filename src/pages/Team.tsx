@@ -28,11 +28,7 @@ const Team = () => {
   }, []);
 
   const showMore = () => {
-<<<<<<< HEAD
     setVisibleCount((prev) => prev + 10); // Increase count by 6 on each click
-=======
-    setVisibleCount((prev) => prev + 10); 
->>>>>>> f6638b8 (Update content)
   };
 
   return (
@@ -53,11 +49,7 @@ const Team = () => {
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4 animate-fade-in">Our Team</h1>
             <p className="text-xl text-gray-300 animate-fade-in-up">
-<<<<<<< HEAD
-              Meet the experts behind our geospatial solutions, bringing together diverse skills and expertise.
-=======
             Exceeding your expectations and giving you a WOW experience.
->>>>>>> f6638b8 (Update content)
             </p>
           </div>
         </div>
@@ -74,16 +66,13 @@ const Team = () => {
             </div>
             <h2 className="text-3xl font-bold mb-6 text-oea-black">Our Dedicated Professionals</h2>
             <p className="text-xl text-gray-600">
-<<<<<<< HEAD
               Our team comprises industry leaders, technical experts, and innovative thinkers committed 
               to excellence in geospatial services. Each member brings unique skills and perspectives to 
               deliver exceptional results for our clients.
-=======
             Our highly skilled and diverse team, with over 40 years of combined experience in Artificial Intelligence, 
             Geospatial Intelligence, Geospatial Data, Engineering, Planning, Risk modeling, Hydrographic Survey, Hydrology, 
             Drone Mapping, and Software Development, is dedicated to delivering exceptional solutions in Field Data Collection, 
             Urban Planning, and Designs, Disaster and Risk Management, and more, all while upholding safety standards and best practices.
->>>>>>> f6638b8 (Update content)
             </p>
           </div>
         </div>

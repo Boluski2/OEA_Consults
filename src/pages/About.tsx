@@ -21,7 +21,6 @@ const About = () => {
   // Define the timeline items with the correct type
   const timelineItems: TimelineItem[] = [
     {
-<<<<<<< HEAD
       year: 2019,
       title: "Company Founded",
       description: "OEA Consult was established in Lagos, Nigeria with a focus on providing high-quality geospatial services."
@@ -31,12 +30,11 @@ const About = () => {
     //   title: "Expansion to West Africa",
     //   description: "We expanded our operations to cover the entire West African region, establishing partnerships with key organizations."
     // },
-=======
+    {
       year: 2018,
       title: "Company Founded",
       description: "OEA Consults Limited (Observatory Earth Analytics) was founded to address the data gap in solving development and environmental issues."
     },
->>>>>>> f6638b8 (Update content)
     {
       year: 2018,
       title: "Launch of Drone Mapping Services",
@@ -103,11 +101,7 @@ const About = () => {
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About OEA Consult</h1>
             <p className="text-xl text-gray-300">
-<<<<<<< HEAD
-              Leading the way in geospatial solutions across West Africa since 2019.
-=======
               Leading the way in geospatial solutions since 2018.
->>>>>>> f6638b8 (Update content)
             </p>
           </div>
         </div>
