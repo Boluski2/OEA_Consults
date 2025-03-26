@@ -75,16 +75,16 @@ const Index = () => {
                 </span>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6 text-oea-black">Transforming Landscapes Through Innovation</h2>
                 <p className="text-gray-600 mb-6">
-<<<<<<< HEAD
+
                   Founded in 2019, OEA Consult has grown to become a leading geospatial consultancy in Africa, 
                   providing cutting-edge solutions to complex spatial challenges. Our team of experts combines 
                   technical excellence with deep local knowledge to deliver projects that make a lasting impact.
-=======
+                </p>
+                <p className="text-gray-600 mb-6">
                 Incorporated in Nigeria in 2018, OEA Consults Limited (Observatory Earth Analytics) 
                 was founded to address the data gap in solving development and environmental issues. 
                 The co-founders recognized the need for actionable and replicable data in planning, environment, 
                 and development circles, driven by their interest in data-driven decision-making. 
->>>>>>> f6638b8 (Update content)
                 </p>
                 <ul className="space-y-3 mb-8">
                   <li className="flex items-start">
@@ -101,11 +101,10 @@ const Index = () => {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-oea-blue flex-shrink-0 mt-1" />
-<<<<<<< HEAD
+
                     <span className="text-gray-700">Strong local presence across Africa</span>
-=======
+
                     <span className="text-gray-700">state-of-the-art geospatial analysis, satellite imagery, GIS mapping and 3D visualization</span>
->>>>>>> f6638b8 (Update content)
                   </li>
                 </ul>
                 <Link to="/about" className="btn-primary">
