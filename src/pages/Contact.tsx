@@ -124,7 +124,7 @@ const Contact = () => {
                     <MapPin className="h-6 w-6 text-oea-blue" />
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold mb-1 text-oea-black">Headquarters</h3>
+                    <h3 className="text-lg font-semibold mb-1 text-oea-black">Our Office</h3>
                     <p className="text-gray-600">
                       {companyInfo.locations.filter(loc => loc.isHeadquarters)[0].address},{' '}
                       {companyInfo.locations.filter(loc => loc.isHeadquarters)[0].city},{' '}
