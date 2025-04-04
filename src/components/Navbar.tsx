@@ -33,11 +33,9 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-<<<<<<< HEAD
     { name: 'Services', path: '/#services' },
-=======
     // { name: 'Services', path: '/#services' },
->>>>>>> 103d9c9 (Add more content and Animation)
+    { name: 'Services', path: '/#services' },
     { name: 'Projects', path: '/projects' },
     { name: 'Team', path: '/team' },
     { name: 'Contact', path: '/contact' },
@@ -97,34 +95,32 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-<<<<<<< HEAD
             {/* <Link
               to="/contact"
-=======
            <Link
               to="/blog"
->>>>>>> 103d9c9 (Add more content and Animation)
+            {/* <Link
+              to="/contact"
               className={cn(
                 "ml-2 btn-primary",
                 scrolled ? "bg-oea-blue text-white" : "bg-oea-blue text-white"
               )}
             >
-<<<<<<< HEAD
               Get Started
             </Link>
             </Link> */}
           </div>
 
           {/* Mobile Navigation Toggle */}
-          <div className="flex items-center md:hidden">
-=======
+          <div className="fle">
+          <Link
+              to="/blog">
               Blog
             </Link>
           </div>
 
         {/* Mobile Navigation Toggle */}
         <div className="flex items-center md:hidden">
->>>>>>> 103d9c9 (Add more content and Animation)
             <button
               type="button"
               className={cn(
@@ -145,12 +141,10 @@ const Navbar = () => {
         </div>
       </div>
 
-<<<<<<< HEAD
       {/* Mobile Navigation Menu */}
-=======
 
      {/* Mobile Navigation Menu */}
->>>>>>> 103d9c9 (Add more content and Animation)
+      {/* Mobile Navigation Menu */}
       <div
         className={cn(
           'md:hidden absolute top-20 left-0 right-0 bg-white shadow-lg transition-all duration-300 ease-in-out transform',
@@ -172,7 +166,6 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-<<<<<<< HEAD
           {/* <Link></Link> */}
           {/* <Link
             to="/contact"
@@ -181,14 +174,12 @@ const Navbar = () => {
             Get Started
           </Link>
           </Link> */}
-=======
           <Link
             to="/blog"
             className="block w-full text-center mt-4 btn-primary"
           >
             Blog
           </Link>
->>>>>>> 103d9c9 (Add more content and Animation)
         </div>
       </div>
     </nav>

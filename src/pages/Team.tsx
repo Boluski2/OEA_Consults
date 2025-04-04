@@ -81,7 +81,7 @@ const Team = () => {
                   <div className="flex justify-center mb-3">{stat.icon}</div>
                   <div className="text-3xl font-bold text-oea-black mb-1">
                     {inView ? (
-                      <CountUp start={0} end={stat.value} duration={10} separator="," suffix={stat.suffix} />
+                      <CountUp start={0} end={stat.value} duration={2.5} separator="," suffix={stat.suffix} />
                     ) : (
                       `${stat.value}${stat.suffix}`
                     )}
@@ -110,6 +110,9 @@ const Team = () => {
                 image={member.image}
                 expertise={member.expertise}
                 index={index}
+                socialLinks={member.socialLinks}
+                achievements={member.achievements}
+                education={member.education}
               />
             ))}
           </div>

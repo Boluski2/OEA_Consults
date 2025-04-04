@@ -63,8 +63,8 @@ const App = () => {
               <Route path="/login" element={<LoginPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
-          </BrowserRouter>
-        </TooltipProvider>
+        </BrowserRouter>
+      </TooltipProvider>
       </AuthProvider>
     </QueryClientProvider>
   );

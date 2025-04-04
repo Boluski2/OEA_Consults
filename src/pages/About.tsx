@@ -1,4 +1,5 @@
 
+
 import React, { useEffect } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -89,7 +90,7 @@ const About = () => {
   //     question: "What makes OEA Consult different from other geospatial firms?",
   //     answer: "Our deep understanding of the West African context, combined with our cutting-edge technical expertise and commitment to sustainability, sets us apart. We don't just provide data—we offer actionable insights that drive meaningful impact for our clients and communities."
   //   }
-  // ];
+  // ];269fb3358180037d81f917158ed2a6
 
   useEffect(() => {
     // Animate elements on scroll
@@ -117,6 +118,7 @@ const About = () => {
 
   return (
     <>
+
       <Navbar />
       
       {/* Hero Section */}
@@ -204,7 +206,8 @@ const About = () => {
       </section>
 
        {/* Company Stats */}
-       <section className="py-16 bg-oea-blue text-white">
+      {/* Company Stats */}
+      <section className="py-16 bg-oea-blue text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12 animate-on-scroll">
             <h2 className="text-3xl font-bold mb-4">Our Impact by the Numbers</h2>
@@ -296,8 +299,9 @@ const About = () => {
 
 
       <Footer />
-    </>
+      </>
   );
-};
+}
+  
 
 export default About;

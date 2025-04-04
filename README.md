@@ -1,9 +1,4 @@
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 103d9c9 (Add more content and Animation)
 # Project Name: OEA Consults Ltd
 
 ## Overview
@@ -28,10 +23,14 @@ company's history, from its founding to the present day. The Website is responsi
 1. **Clone the Repository**:
    ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
    git clone https://github.com/Boluski2/OEA_Consults.git
 =======
    git clone https://github.com/ObservatoryAnalytics/oea_website.git
 >>>>>>> 103d9c9 (Add more content and Animation)
+=======
+   git clone https://github.com/Boluski2/OEA_Consults.git
+>>>>>>> 73de183c15269fb3358180037d81f917158ed2a6
  
    ```
 
@@ -72,7 +71,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For questions or feedback, please contact [Gmail: babatundebolu@gmail.com](Linkdin:https://www.linkedin.com/feed/).
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # oea_website
 OEA revamped website using NextJS
 >>>>>>> 103d9c9 (Add more content and Animation)
+=======
+>>>>>>> 73de183c15269fb3358180037d81f917158ed2a6

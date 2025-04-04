@@ -83,7 +83,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
   {
     id: 2,
@@ -122,7 +122,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
   {
     id: 4,
@@ -160,7 +160,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
   {
     id: 6,
@@ -179,7 +179,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
   {
     id: 7,
@@ -198,7 +198,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
     {
     id: 8,
@@ -239,7 +239,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
   {
     id: 11,
@@ -258,7 +258,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
   {
     id: 12,
@@ -285,7 +285,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
   {
     id: 11,
@@ -380,7 +380,7 @@ export const teamMembers = [
       "Published 15+ research papers in top-tier journals",
       "Awarded the Nigerian Geospatial Excellence Award (2021)"
     ],
-    education: "Ph.D. in Geomatics Engineering, University College London"
+    education: "Ph.D. in Geomatics Engineering, University College London",
   },
    
 ];
