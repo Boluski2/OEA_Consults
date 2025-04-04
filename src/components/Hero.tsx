@@ -39,16 +39,9 @@ const Hero = () => {
         technology for collecting, analyzing, and unlocking new insights for potential growth.
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
-
-          <Link to="/contact" className="btn-primary min-w-[180px]">
-            Get Started
-          </Link>
         {/* <Link to="/blog" className="btn-primary min-w-[180px]">
             Blog
           </Link> */}
-          <Link to="/contact" className="btn-primary min-w-[180px]">
-            Get Started
-          </Link>
           <Link to="/projects" className="btn-outline bg-transparent text-white border-white hover:bg-white hover:text-oea-black min-w-[180px]">
             View Projects
           </Link>

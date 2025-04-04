@@ -12,9 +12,6 @@ import Testimonials from '@/components/Testimonials';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 
-
-
-
 // Define the FAQ item type
 interface FAQItem {
   question: string;
@@ -49,7 +46,7 @@ const Index = () => {
 
 
 
-const Index = () => {
+
   useEffect(() => {
     // Initialize intersection observer for animation
     const observer = new IntersectionObserver(
@@ -249,5 +246,5 @@ const Index = () => {
   );
 };
 
-}
+
 export default Index;

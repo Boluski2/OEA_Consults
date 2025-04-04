@@ -1,8 +1,10 @@
-
-import React, { useState, useEffect } from 'react';
+import React from 'react';
+// import {useState, useEffect} from 'react';
+// import { useLocation } from 'react-router-dom';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import { useEffect, useState } from 'react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -33,9 +35,7 @@ const Navbar = () => {
   const navItems = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Services', path: '/#services' },
     // { name: 'Services', path: '/#services' },
-    { name: 'Services', path: '/#services' },
     { name: 'Projects', path: '/projects' },
     { name: 'Team', path: '/team' },
     { name: 'Contact', path: '/contact' },
@@ -63,20 +63,12 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20">
           <div className="flex-shrink-0 flex items-center">
-          <Link to="/" className="flex items-center gap-2">
-         <img 
-          src="./Oea_logo.png" 
-          alt="OEA Logo" 
-          className="w-10 h-10 object-contain"
-        />
-          <span className={cn(
-          "text-2xl font-bold flex items-center",
-          scrolled ? "text-white" : "text-oea-black"
-          )}>
-           OEA<span className="text-oea-blue">Consult</span>
-          </span>
-        </Link>
-
+            <Link to="/" className="flex items-center">
+              <span className={cn(
+                "text-2xl font-bold",
+                scrolled ? "text-white" : "text-oea-black"
+              )}>OEA<span className="text-oea-blue">Consult</span></span>
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
@@ -95,32 +87,19 @@ const Navbar = () => {
                 {item.name}
               </Link>
             ))}
-            {/* <Link
-              to="/contact"
-           <Link
+            <Link
               to="/blog"
-            {/* <Link
-              to="/contact"
               className={cn(
                 "ml-2 btn-primary",
                 scrolled ? "bg-oea-blue text-white" : "bg-oea-blue text-white"
               )}
             >
-              Get Started
-            </Link>
-            </Link> */}
-          </div>
-
-          {/* Mobile Navigation Toggle */}
-          <div className="fle">
-          <Link
-              to="/blog">
               Blog
             </Link>
           </div>
 
-        {/* Mobile Navigation Toggle */}
-        <div className="flex items-center md:hidden">
+          {/* Mobile Navigation Toggle */}
+          <div className="flex items-center md:hidden">
             <button
               type="button"
               className={cn(
@@ -141,9 +120,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Navigation Menu */}
-
-     {/* Mobile Navigation Menu */}
       {/* Mobile Navigation Menu */}
       <div
         className={cn(
@@ -166,14 +142,6 @@ const Navbar = () => {
               {item.name}
             </Link>
           ))}
-          {/* <Link></Link> */}
-          {/* <Link
-            to="/contact"
-            className="block w-full text-center mt-4 btn-primary"
-          >
-            Get Started
-          </Link>
-          </Link> */}
           <Link
             to="/blog"
             className="block w-full text-center mt-4 btn-primary"
