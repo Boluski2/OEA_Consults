@@ -213,14 +213,7 @@ const About = () => {
             <h2 className="text-3xl font-bold mb-4">Our Impact by the Numbers</h2>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-on-scroll">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl md:text-5xl font-bold mb-2">{stat.value}</div>
-                <div className="text-lg font-medium text-oea-lightGray">{stat.label}</div>
-              </div>
-            ))}
-          </div>
+          
 
           <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.2 }}>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 animate-on-scroll">
